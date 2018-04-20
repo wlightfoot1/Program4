@@ -1,5 +1,12 @@
 package lightfoot_OutLab4;
-
+/*
+ * Westin Lightfoot, Benjimin Naylor, Brenden Smith 
+ * CSCI232
+ * Program 4
+ * 
+ * Contains 4 tests using JUnit to test the ChangeCoins.class
+ * 
+ */
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
