@@ -28,7 +28,7 @@ public class ChangeCoins {
 		for(int b = 0; b < coins.length; b++) {	//loops through coins 
 			for(int c = 1; c <= amount; c++) {
 				if(c >= coins[b]) {
-					if(holder[c - coins[b]] + 1 < holder[c]) { //picks correct coins
+					if(holder[c - coins[b]] + 1 < holder[c]) { //picks lowest amount of coins possible
 						holder[c] = 1 + holder[c - coins[b]];
 						ans[c] = b;
 					}//if
