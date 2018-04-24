@@ -13,7 +13,7 @@ public class ChangeCoins {
 	public static int[] change(int[] coins, int amount) {
 		int[] ans = new int[amount + 1];	//holds the minimun amount of coins needs
 		int[] holder = new int[amount + 1]; //holds a copy of the coins array
-		holder[0] = 0;
+		holder[0] = 0;	//assigns the first value of the array
 		int count = 0;
         int holderTwo[] = new int[amount + 1];
         int last = ans.length - 1;
@@ -36,10 +36,10 @@ public class ChangeCoins {
 			}//for
 		}//for
         while (last != 0) { //loop through array
-            int pointer = ans[last];                        
+            int pointer = ans[last];               //assigns int pointer         
             holderTwo[count] = coins[pointer];
             last -= coins[pointer];//next last
-            count++;  
+            count++;  //increases count
         }//while
         int finalChange[] = new int [count];
         for(int i = 0; i < count; i++){ //tranfer to new array
