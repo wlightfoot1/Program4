@@ -1,8 +1,8 @@
 package lightfoot_OutLab4;
 
 /*
- * Westin Lightfoot, Benjimin Naylor, Brenden Smith 
- * CSCI232
+ * Westin Lightfoot, Benjamin Naylor, Brendan Smith 
+ * CSCI_232
  * Program 4
  * 
  * Contains a single method, taking in two parameters(an array, int) and picks the least amount 
